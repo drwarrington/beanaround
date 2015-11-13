@@ -1,0 +1,228 @@
+<style>
+       
+        body 
+        {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14pt;
+            margin: 0px auto;
+            padding: 0px;
+            background-color: #000000;
+        }
+        
+        h2.homepage
+        {
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        
+        div div
+        {
+            text-align: center;
+            position: relative;
+        }
+        
+        img.bg
+        {
+            width: 100%;
+            position: absolute;
+            opacity: 0.7;
+
+        }
+        
+        #fimage
+        {
+            float: left;
+            align-content: center;
+            width: 100%;
+        }
+        
+        a:link
+        {
+            color: #e3e2e1;
+            text-decoration: none;
+            text-shadow: 1px 1px 4px #666666;
+        }
+        
+        a:visited
+        {
+            color: #e3e2e1;
+            text-decoration: none;
+            text-shadow: 1px 1px 4px #666666;
+        }
+        
+        a:hover
+        {
+            color: #2D5829;
+            text-decoration: none;
+            text-shadow: 1px 1px 4px #54B863;
+        }
+        
+        #wrap
+        {
+            float: left;
+            width: 100%;
+            clear: both;
+            margin: 0 auto;
+            padding: 0px;
+            position: relative;
+        }
+        
+        .brownhover:hover
+        {
+            color: #73503f;
+            text-shadow: 1px 1px 4px #3c2e27; 
+        }
+        
+        .greenhover:hover
+        {
+            color: #2D5829;
+            text-shadow: 1px 1px 4px #54B863; 
+        }
+        
+        #pagewrap
+        {
+            padding: 0px;
+            width: 98%;
+            margin: 0 auto;
+            overflow: visible;
+        }
+        
+        .menu 
+        {
+            height: 60px;
+            margin: 0px auto;
+            padding: 0px;
+            font-size: 24pt;
+            width: 15%;
+            float: left;
+            clear: none;
+            margin-bottom: 5px;
+            align-items: baseline;
+            position: relative;
+            font-family: 'White-Elephant';
+        }
+        
+        .menu a {
+            margin: 0 auto;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+ 
+        }
+        
+        #logo
+        {
+            margin: 0px auto;
+            padding: 0px;
+            width: 10%;
+            height: auto;
+            float: left;
+            clear: none;
+            margin-bottom: 5px;
+        }
+
+        .clearcontent 
+        {
+            width: 50%;
+            height: 200px;
+            float: left;
+            clear: none;
+            margin: 0 auto;
+            font-size: 200%;
+            font-family: 'White-Elephant';
+            margin-bottom: 5px;
+            color: #e3e2e1;
+            text-shadow: 1px 1px 4px #666666;
+        }
+
+        .cclearcontent 
+        {
+            width: 100%;
+            height: 200px;
+            float: left;
+            clear: none;
+            margin: 0 auto;
+            font-size: 200%;
+            font-family: 'White-Elephant';
+            margin-bottom: 5px;
+            color: #e3e2e1;
+            text-shadow: 1px 1px 4px #666666;
+        }
+        
+        .cupcontent 
+        {
+            width: 80%;
+            float: left;
+            margin: 0 auto;
+            margin-left: 10%;
+            background-color: #e3e2e1;
+            margin-bottom: 5px;
+        }
+
+        .headline 
+        {
+            width: 80%;
+            float: left;
+            clear: none;
+            margin: 0 auto;
+            margin-left: 10%;
+            font-size: 200%;
+            font-family: 'White-Elephant';
+            margin-bottom: 5px;
+            color: #333333;
+        }
+
+        .lowline 
+        {
+            width: 80%;
+            float: left;
+            clear: none;
+            margin: 0 auto;
+            margin-left: 10%;
+            font-family: 'Roboto';
+            margin-bottom: 5px;
+            color: #333333;
+        }
+
+        p.page
+        {
+            width: 60%;
+            float: left;
+            clear: none;
+            margin: 0 auto;
+            margin-left: 20%;
+            font-size: 1rem;
+            font-family: 'Roboto';
+            margin-bottom: 5px;
+            color: #000000;
+            text-align: justify;
+            
+        }
+        
+        .footers 
+        {
+            width: 25%;
+            float: left;
+            margin: 0 auto;
+            background-color: #cccccc;
+            clear: none;
+            height: 20%;
+            margin-bottom: 5px;
+        }
+        
+        #foot
+        {
+            width: 80%;
+            margin: 0 auto;
+            margin-left: 10%;
+            background-color: #e3e2e1;
+            color: #3c3c3c;
+            clear: both;
+            float: left;
+            position: absolute;
+            
+        }
+
+    </style>
