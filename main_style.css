@@ -99,7 +99,7 @@
             margin-bottom: 5px;
             align-items: baseline;
             position: relative;
-            font-family: 'White-Elephant';
+            font-family: 'Metamorphous', cursive;
         }
         
         .menu a {
@@ -131,7 +131,7 @@
             clear: none;
             margin: 0 auto;
             font-size: 200%;
-            font-family: 'White-Elephant';
+            font-family: 'Metamorphous', cursive;
             margin-bottom: 5px;
             color: #e3e2e1;
             text-shadow: 1px 1px 4px #666666;
@@ -145,7 +145,7 @@
             clear: none;
             margin: 0 auto;
             font-size: 200%;
-            font-family: 'White-Elephant';
+            font-family: 'Metamorphous', cursive;
             margin-bottom: 5px;
             color: #e3e2e1;
             text-shadow: 1px 1px 4px #666666;
@@ -169,7 +169,7 @@
             margin: 0 auto;
             margin-left: 10%;
             font-size: 200%;
-            font-family: 'White-Elephant';
+            font-family: 'Metamorphous', cursive;
             margin-bottom: 5px;
             color: #333333;
         }
