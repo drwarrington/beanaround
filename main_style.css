@@ -241,3 +241,29 @@ form input
     width: 40%;
     margin-bottom: 5px;
 }
+
+#map
+{
+    width: 40%;
+    height: 400px;
+    margin: 0 auto;
+    margin-right: 5%;
+    float: right;
+}
+
+#subtit
+{
+    text-decoration: underline;
+    font-weight: 800
+}
+
+        .clear 
+        {
+            width: 50%;
+            float: left;
+            clear: none;
+            margin: 0 auto;
+            font-size: 200%;
+            margin-bottom: 5px;
+            margin-left: 5%
+        }
