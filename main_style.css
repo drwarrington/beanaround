@@ -1,4 +1,8 @@
        @import url(https://fonts.googleapis.com/css?family=Squada+One|Averia+Sans+Libre|Metamorphous|Happy+Monkey);
+       @font-face {
+              font-family: 'White Elephant';
+              src: url('../assets/fonts/White Elephant/white_elephant-webfont.woff') format('woff');
+       }
        
         body 
         {
