@@ -1,7 +1,7 @@
        @import url(https://fonts.googleapis.com/css?family=Squada+One|Averia+Sans+Libre|Metamorphous|Happy+Monkey);
        @font-face {
               font-family: 'White Elephant';
-              src: url('../assets/fonts/White Elephant/white_elephant-webfont.woff') format('woff');
+              src: url('./assets/fonts/White Elephant/white_elephant-webfont.woff') format('woff');
        }
        
         body 
@@ -105,7 +105,7 @@
             margin-bottom: 5px;
             align-items: baseline;
             position: relative;
-            font-family: 'Squada One', cursive;
+            font-family: 'White Elephant';
         }
         
         .menu a {
@@ -175,7 +175,7 @@
             margin: 0 auto;
             margin-left: 10%;
             font-size: 200%;
-            font-family: 'Squada One', cursive;
+            font-family: 'White Elephant';
             margin-bottom: 5px;
             color: #333333;
         }
