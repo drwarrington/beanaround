@@ -1,5 +1,4 @@
-       @import url(https://fonts.googleapis.com/css?family=Squada+One|Averia+Sans+Libre|Metamorphous|Happy+Monkey);
-       @font-face {
+        @font-face {
               font-family: 'White Elephant';
               src: url('./assets/fonts/White Elephant/white_elephant-webfont.woff') format('woff');
        }
@@ -10,7 +9,7 @@
             font-size: 14pt;
             margin: 0px auto;
             padding: 0px;
-            background-color: #000000;
+            background-color: #e8e8e8;
         }
         
         h2.homepage
@@ -18,19 +17,11 @@
             margin-left: 60px;
             margin-right: 60px;
         }
-        
-        div div
-        {
-            text-align: center;
-            position: relative;
-        }
-        
+
         img.bg
         {
             width: 100%;
             position: absolute;
-            
-
         }
         
         #fimage
@@ -69,7 +60,6 @@
             margin: 0 auto;
             padding: 0px;
             position: relative;
-            background-color: black
         }
         
         .brownhover:hover
@@ -127,6 +117,7 @@
             float: left;
             clear: none;
             margin-bottom: 5px;
+            position: relative;
         }
 
         .clearcontent 
@@ -141,6 +132,8 @@
             margin-bottom: 5px;
             color: #e3e2e1;
             text-shadow: 1px 1px 4px #666666;
+            position: relative;
+            text-align: center;
         }
 
         .cclearcontent 
@@ -155,6 +148,8 @@
             margin-bottom: 5px;
             color: #e3e2e1;
             text-shadow: 1px 1px 4px #666666;
+            position: relative;
+            text-align: center;
         }
         
         .cupcontent 
@@ -163,8 +158,9 @@
             float: left;
             margin: 0 auto;
             margin-left: 10%;
-            background-color: #e3e2e1;
+            background-color: #e8e8e8;
             margin-bottom: 5px;
+            position: relative;
         }
 
         .headline 
@@ -178,6 +174,7 @@
             font-family: 'White Elephant';
             margin-bottom: 5px;
             color: #333333;
+            text-align: center;
         }
 
         .lowline 
@@ -190,6 +187,7 @@
             font-family: 'Roboto';
             margin-bottom: 5px;
             color: #333333;
+            text-align: center;
         }
 
         p.page
@@ -231,20 +229,100 @@
             
         }
 
-form.booking
-{
-    width: 50%;
-    margin: 0 auto;
-    margin-left: 25%;
-    float: left;
-    clear: both;
-}
+        /**************************************BOOKING*********************************************/
+            
 
-form input 
-{
-    width: 40%;
-    margin-bottom: 5px;
-}
+            h3 {
+                display: block;
+                clear: both;
+            }
+            p, label, placeholder, legend { font-family: 'Roboto'; }
+
+            .contact1 {
+                width: 50%;
+                height: auto;
+                float: left;
+            }
+            .contact2 {
+                width: 50%;
+                height: auto;
+                float: left;
+            }
+            h3 {
+                font-size: 18pt;
+                font-kerning: none;
+                font-weight: bolder;
+            }
+            p {
+                line-height: normal;
+                margin: 0;
+                padding: 0;
+                display: inline;
+            }
+            label, legend { font-weight: bold; }
+            fieldset {
+                margin-bottom: 2px;
+                padding: 0;
+                margin-left: 0;
+                border: 0;
+            }
+            #submit_reset {
+                float: right;
+                margin-right: 5%;
+            }
+            input {
+                background-color: #fbfbfb;
+                border: 2px grey;
+                vertical-align: middle;
+                height: 30px;
+                width:auto;
+                display: inline;
+            }
+            textarea { 
+                background-color: #fbfbfb;
+                border: 2px grey;
+            }
+            .input100 {
+                width: 90%;
+            }
+            .input50 {
+                width: 44.5%;
+            }
+            select {
+                width: 44.5%;
+            }
+            input[type=checkbox] {
+                display: inline-block;
+            }
+            input[type=submit] {
+                margin-bottom: 5px;
+                color: #e8e8e8;
+                font-size: 14pt;
+                width: 200px;
+                height: 50px;
+                padding:5px 15px; 
+                background:#393735; 
+                border:0 none;
+                cursor:pointer;
+                -webkit-border-radius: 5px;
+                border-radius: 5px;
+            }
+            input[type=reset] {
+                margin-bottom: 5px;
+                color: #e8e8e8;
+                font-size: 14pt;
+                width: 200px;
+                height: 50px;
+                padding:5px 15px;
+                background:#393735; 
+                border:0 none;
+                cursor:pointer;
+                -webkit-border-radius: 5px;
+                border-radius: 5px;
+                input[type="reset"]:hover { background: red; }
+            }
+
+        /**************************************OTHER*********************************************/
 
 #map
 {
@@ -271,3 +349,4 @@ form input
             margin-bottom: 5px;
             margin-left: 5%
         }
+
