@@ -3,70 +3,197 @@
     
     <head>
         <meta charset="utf-8">
-        <title>Products | Bean Around the Block</title>
+        <title>Booking | Bean Around the Block</title>
         <link rel="stylesheet" href="main_style.css">
         <style>
-        @import url(https://fonts.googleapis.com/css?family=Roboto);
-        @import url(https://fonts.googleapis.com/css?family=Squada+One|Averia+Sans+Libre|Metamorphous|Happy+Monkey);
-            
-            #wrap
-            {
-                background-color: black;
+            /*****1000px*****/
+            @media screen and (max-width: 1000px) {
+                p, label, legend { font-size: 1.0rem; }
+                .contact1 {
+                    width: 100%;
+                    clear: both;
+                    display: block;
+                }
+                .contact2 {
+                    width: 100%;
+                    clear: both;
+                    display: block;
+                }
+                input: { width: 100%; height: auto;}
+                .input100 { width: 100%; }
+                .input50 { width: 100%; margin-bottom: 5px;}
+                #submit_reset { float: none; }
             }
-            
-        /**                 <div class="clear">
-                    <p class="page" id="subtit">Bean Around the Block Co.</p>
-                    <p class="page">3700 Willingdon Ave</p>
-                    <p class="page">Burnaby, BC</p>
-                    <p class="page">V5G 3H2</p>
-                    <p class="page">&nbsp;</p>
-                    <p class="page" id="subtit">Hours of Operation</p>
-                    <p class="page">Monday - Friday: 6AM - 6PM</p>
-                    <p class="page">Saturday: 7AM - 6PM</p>
-                    <p class="page">Sunday: 8AM - 6PM</p>
-                    <p class="page">Holidays: Closed</p>
-                    <p class="page">&nbsp;</p>
-                    <p class="page" id="subtit">Give us a Call</p>
-                    <p class="page">Retail Customer Service: 1 (800) 323 6845</p>
-                    <p class="page">Corporate Sales: 1 (800) 567 4454</p>
-                </div>
-        
-        **/
-            
+            /*****320px*****/
+            @media screen and (max-width: 320px) {
+                #pagewrap {
+                    padding: 0;
+                    width: 100%;
+                    margin: 5px auto;
+                }
+                select { width: 100%; margin-bottom: 5px;}
+                #fimage { visibility: hidden; }
+            }
         </style>
     </head>
     <body>
         <div id="wrap">
-        <img class="bg" src="https://images.unsplash.com/photo-1430931071372-38127bd472b8?ixlib=rb-0.3.5&q=80&fm=jpg&s=4d8b97be78b1ea15be104ac160d39f61"/>
+        <img class="bg" src="./assets/Booking/BookingBanner.jpg" alt=""/>
         <div id="pagewrap">
             <div class="menu"></div>
             <div class="menu"><a href="products.html">PRODUCTS</a></div>
             <div class="menu"><a href="booking.html">BOOKING</a></div>
-            <div id="logo"><a href="index.html"><img id="fimage" src="http://i.imgur.com/DeDx8KN.png"/></a></div>
+            <div id="logo"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png" alt=""/></a></div>
             <div class="menu"><a href="aboutus.html">ABOUT US</a></div>
             <div class="menu"><a href="contact.html">CONTACT</a></div>
             <div class="menu"></div>
             <div class="cclearcontent"></div>
             <div class="cupcontent">
-                <div class="headline"><h1>[ Book Our Services ]</h1></div>
-                <p class="page">&nbsp;</p>
-                <form class="booking" action="./submit.html">
-                        <input type="text" id="name" name="name" placeholder="First & Last Name *" pattern="[A-Za-z]{4,25}" required/>
-                        <input type="text" id="name" name="company" placeholder="Company (if applicable)" pattern="[A-Za-z]{4,30}"/>
-                        <input type="text" id="address" name="address" placeholder="Address *" pattern="[A-Za-z0-9]{6,30}" required/>
-                    <input type="text" id="city" name="city" placeholder="City *" pattern="[A-Za-z]{8,20}" required/>
-                    <input type="text" id="phone" name="phone" placeholder="Phone Number *" pattern="[0-9]{7,20}" required/>
-                    <input type="text" id="email" name="email" placeholder="Email *" pattern="[A-Za-z0-9]{5,30}" required/>
-                    <input type="text" id="date" name="date" placeholder="Date of Event" pattern="[A-Za-z0-9]{5,30}" />
-                    <input type="text" id="time" name="time" placeholder="Event Start Time & Duration" pattern="[A-Za-z0-9]{5,30}" />
-                    <input type="reset" id="reset" name="reset" value="Reset"/>
-                    <input type="submit" id="submit" name="submit" value="Submit"/>
-                    
+                <h1>Book Now</h1>
+                <p>Thank you for your interest in booking our services! If you have any questions while filling out this form, please give us a call at (800) 323-6845 or email us at beanatb@gmail.com</p>
+             <br><br>
+                <form method="post" id="thankyou" action="./bookingform1.html" onSubmit="alert('Thank you! We will get your order ready!');" >
+                    <h3>Contact Details</h3>
+                    <div class="contact1">
+                        <fieldset>
+                            <label>Name:</label><br>
+                            <input type="text" class="input50" name="name" placeholder="First Name *" pattern="[A-Za-z]{2,25}" required/>
+                            <input type="text" class="input50" placeholder="Last Name *" pattern="[A-Za-z]{2,30}" required/>
+                        </fieldset><br>
+                        <fieldset>
+                            <label>Phone Number: *</label><br>
+                            <input type="tel" class="input100" name="usrtel" placeholder="Phone Number" required/>
+                        </fieldset><br>
+                    </div>
+                    <div class="contact2">
+                        <fieldset>
+                            <label>Company:</label><br>
+                            <input type="text" class="input100" name="company" placeholder="Company" pattern="[A-Za-z]{2,30}"/>
+                        </fieldset><br>
+                        <fieldset>
+                            <label>Email Address: *</label><br>
+                            <input type="email" class="input100" name="email" placeholder="Email" required/>
+                        </fieldset>
+                    </div>
+                    <br><br><br>
+                    <h3>Event Details</h3>
+                    <div class="contact1">
+                        <fieldset>
+                            <label>Start and End Date: *</label><br>
+                            <input type="date" class="input50" name="date" required/>
+                            <input type="date" class="input50" name="date" required/>
+                        </fieldset><br>
+                        <fieldset>
+                            <label>Start and End Time: *</label><br>
+                            <select name="time" required>
+                                <option value="">6:00 AM</option>
+                                <option value="">6:30 AM</option>
+                                <option value="">7:00 AM</option>
+                                <option value="">7:30 AM</option>
+                                <option value="">8:00 AM</option>
+                                <option value="">8:30 AM</option>
+                                <option value="">9:00 AM</option>
+                                <option value="">9:30 AM</option>
+                                <option value="">10:00 AM</option>
+                                <option value="">10:30 AM</option>
+                                <option value="">11:00 AM</option>
+                                <option value="">11:30 AM</option>
+                                <option value="">12:00 PM</option>
+                                <option value="">12:30 PM</option>
+                                <option value="">1:00 PM</option>
+                                <option value="">1:30 PM</option>
+                                <option value="">2:00 PM</option>
+                                <option value="">2:30 PM</option>
+                                <option value="">3:00 PM</option>
+                                <option value="">3:30 PM</option>
+                                <option value="">4:00 PM</option>
+                                <option value="">4:30 PM</option>
+                                <option value="">5:00 PM</option>
+                                <option value="">5:30 PM</option>
+                                <option value="">6:00 PM</option>
+                                <option value="">6:30 PM</option>
+                                <option value="">7:00 PM</option>
+                                <option value="">7:30 PM</option>
+                                <option value="">8:00 PM</option>
+                            </select>
+                            <select name="time" required>
+                                <option value="">6:00 AM</option>
+                                <option value="">6:30 AM</option>
+                                <option value="">7:00 AM</option>
+                                <option value="">7:30 AM</option>
+                                <option value="">8:00 AM</option>
+                                <option value="">8:30 AM</option>
+                                <option value="">9:00 AM</option>
+                                <option value="">9:30 AM</option>
+                                <option value="">10:00 AM</option>
+                                <option value="">10:30 AM</option>
+                                <option value="">11:00 AM</option>
+                                <option value="">11:30 AM</option>
+                                <option value="">12:00 PM</option>
+                                <option value="">12:30 PM</option>
+                                <option value="">1:00 PM</option>
+                                <option value="">1:30 PM</option>
+                                <option value="">2:00 PM</option>
+                                <option value="">2:30 PM</option>
+                                <option value="">3:00 PM</option>
+                                <option value="">3:30 PM</option>
+                                <option value="">4:00 PM</option>
+                                <option value="">4:30 PM</option>
+                                <option value="">5:00 PM</option>
+                                <option value="">5:30 PM</option>
+                                <option value="">6:00 PM</option>
+                                <option value="">6:30 PM</option>
+                                <option value="">7:00 PM</option>
+                                <option value="">7:30 PM</option>
+                                <option value="">8:00 PM</option>
+                            </select>
+                        </fieldset><br>
+                        <fieldset>
+                            <label>Location Address: *</label><br>
+                            <input type="text" class="input100" name="name" placeholder="Location Address" pattern="[A-Za-z0-9]{2,25}" required/>
+                        </fieldset><br>
+                        <fieldset>
+                            <label>Postal Code:</label><br>
+                            <input type="text" class="input100" name="name" placeholder="Postal Code" pattern="[A-Za-z0-9]{6,8}"/>
+                        </fieldset><br>
+                        <fieldset>
+                            <label>Menu Selection: *</label>
+                            <div>
+                                <p><input type="checkbox" name="menu" checked="checked"/>Coffee</p><br/>
+                                <p><input type="checkbox" name="menu"/>Tea</p><br/>
+                                <p><input type="checkbox" name="menu"/>Pastries</p><br/>
+                            </div>
+                        </fieldset><br>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>How will the event be funded? *</legend>
+                            <p><input type="radio" name="payment" value="Individual Payment" checked="checked"/>Individual Payment</p><br/>
+                            <p><input type="radio" name="payment" value="Event Organizer Payment"/>Event Organizer Payment</p><br/>
+                        </fieldset><br>
+                        <fieldset>
+                            <legend>Is there vehicle access at the event? *</legend>
+                            <p><input type="radio" name="vehicle" value="Yes" checked="checked"/>Yes</p><br/>
+                            <p><input type="radio" name="vehicle" value="No" />No</p><br/>
+                        </fieldset><br>
+
+                        <fieldset>
+                            <label>Any Additional Information or Comments?</label>
+                            <div><textarea class="input100" name="message" spellcheck="true" rows="7" tabindex="4"></textarea></div>
+                        </fieldset><br>
+                        <fieldset>
+                            <label><input type="checkbox" name="terms" required/>I agree with the terms and conditions of use.</label><br/>
+                        </fieldset>
+                    </div><br><br><br>
+                    <div id="submit_reset">
+                    <fieldset>
+                        <input type="reset" id="reset" name="reset" value="Reset"/>
+                        <input type="submit" id="submit" name="submit" value="Submit"/>
+                    </fieldset>
+                    </div>
                 </form>
-                <p class="page">&nbsp;</p>
-                <p class="page">&nbsp;</p>
             </div>
-            <span>&nbsp;</span>
+            <br><br><br><br><br><br><br><br><br>
         </div>
         <div class="cclearcontent"></div>
         </div>
