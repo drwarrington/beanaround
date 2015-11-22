@@ -231,10 +231,17 @@
 
         /**************************************BOOKING*********************************************/
             
-
+            #bookingh1 {
+                font-family: 'White Elephant';
+                font-size: 30pt;
+                letter-spacing: 2.5pt;
+            }
             h3 {
                 display: block;
                 clear: both;
+                font-family: 'White Elephant';
+                font-size: 25pt;
+                letter-spacing: 1pt;
             }
             p, label, placeholder, legend { font-family: 'Roboto'; }
 
@@ -268,28 +275,29 @@
             }
             #submit_reset {
                 float: right;
-                margin-right: 5%;
+                margin-right: 2%;
             }
             input {
                 background-color: #fbfbfb;
                 border: 2px grey;
                 vertical-align: middle;
                 height: 30px;
-                width:auto;
+                width: auto;
                 display: inline;
             }
             textarea { 
                 background-color: #fbfbfb;
                 border: 2px grey;
+                width: 95%
             }
             .input100 {
-                width: 90%;
+                width: 95%;
             }
             .input50 {
-                width: 44.5%;
+                width: 47%;
             }
             select {
-                width: 44.5%;
+                width: 47.5%;
             }
             input[type=checkbox] {
                 display: inline-block;
