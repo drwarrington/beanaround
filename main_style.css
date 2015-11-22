@@ -330,6 +330,37 @@
                 input[type="reset"]:hover { background: red; }
             }
 
+/** PRODUCTS **/
+
+#productframe
+{
+    width: 60%;
+    margin: 0 auto;
+    height: 500px;
+    display: block;
+}
+
+.productImages  {
+    width: 30%;
+    margin: 2.5% auto;
+    margin-left: 2.5%;
+    float: left;
+}
+
+.framecontent 
+{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    float: left;
+    clear: none;
+    margin: 0 auto;
+    font-size: 200%;
+    font-family: 'White Elephant';
+    margin-bottom: 5px;
+    color: #e3e2e1;
+    text-shadow: 1px 1px 4px #666666;
+        }
         /**************************************OTHER*********************************************/
 
 #map
