@@ -6,7 +6,7 @@
         <title>Booking | Bean Around the Block</title>
         <link rel="stylesheet" href="main_style.css">
         <style>
-            hr { margin-top: 2em; margin-bottom: 2em; width: 98%; float: left;}
+            hr.bot { margin-top: 2em; margin-bottom: 2em; width: 98%; float: left;}
             /*****1000px*****/
             @media screen and (max-width: 1000px) {
                 p, label, legend { font-size: 1.0rem; }
@@ -59,10 +59,9 @@
             <div class="menu"></div>
             <div class="cclearcontent"></div>
             <div class="cupcontent">
+                <div class="headline"><h1>[ BOOK NOW ]</h1><hr class="fade"></div>
                 <div id="book">
-                <h1 id="bookingh1">Book Now</h1>
-                <div><p>Thank you for your interest in booking our services! If you have any questions while filling out this form, please give us a call at (800) 323-6845 or email us at beanatb@gmail.com</p></div>
-                <hr>
+                    <p class="page">Thank you for your interest in booking our services! If you have any questions while filling out this form, please give us a call at (800) 323-6845 or email us at beanatb@gmail.com</p>
                 <form method="post" id="thankyou" action="./booking.html" onSubmit="alert('Thank you! We will get your order ready!');" >
                     <h3>Contact Details</h3>
                     <div class="contact1">
@@ -204,7 +203,7 @@
                     </fieldset>
                     </div>
                 </form>
-                <br><hr>
+                <br><hr class="fade bot">
             </div>
             </div>
             <br><br><br><br><br><br>

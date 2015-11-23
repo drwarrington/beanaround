@@ -9,6 +9,11 @@
         @import url(https://fonts.googleapis.com/css?family=Roboto);
         @import url(https://fonts.googleapis.com/css?family=Squada+One|Averia+Sans+Libre|Metamorphous|Happy+Monkey);
         </style>
+        <script language="javascript" type="text/javascript">
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
     </head>
     <body>
         <div id="wrap">
@@ -17,7 +22,7 @@
             <div class="menu"></div>
             <div class="menu currentpage"><a href="products.html">PRODUCTS</a></div>
             <div class="menu"><a href="booking.html">BOOKING</a></div>
-            <div id="logo"><a href="index.html"><img id="fimage" src="http://i.imgur.com/DeDx8KN.png"/></a></div>
+            <div id="logo"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png"/></a></div>
             <div class="menu"><a href="aboutus.html">ABOUT US</a></div>
             <div class="menu"><a href="contact.html">CONTACT</a></div>
             <div class="menu"></div>
@@ -26,10 +31,11 @@
                 <img id="organic" src="assets/Menu/Organic.png" alt="organic"/>
             </div>
             <div class="cupcontent">
-                <div class="headline"><h1>[ Our Products ]</h1></div>
+                <div class="headline"><h1>[ Our Products ]</h1><hr class="fade"></div>
                 <p class="page">&nbsp;</p>
                 <div class="framecontent"><a href="coffee.html" target="iframe_prod">COFFEE</a> | <a href="tea.html" target="iframe_prod">TEA</a> | <a href="pastries.html" target="iframe_prod">PASTRIES</a></div>
-                <iframe src="coffee.html" name="iframe_prod" id="productframe" frameborder="0"><p>Your browser does not support iframes.</p></iframe>
+                <iframe src="coffee.html" name="iframe_prod" id="productframe" frameborder="0" onload='javascript:resizeIframe(this);' ><p>Your browser does not support iframes.</p></iframe>
+                <div class="headline"><hr class="fade"></div>
                 <div class="cclearcontent"></div>
             </div>
             <span>&nbsp;</span>

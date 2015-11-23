@@ -9,6 +9,11 @@
         @import url(https://fonts.googleapis.com/css?family=Roboto);
         @import url(https://fonts.googleapis.com/css?family=Squada+One|Averia+Sans+Libre|Metamorphous|Happy+Monkey);
         </style>
+        <script language="javascript" type="text/javascript">
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
     </head>
     <body>
         <div id="wrap">
@@ -17,20 +22,20 @@
             <div class="menu"></div>
             <div class="menu"><a href="products.html">PRODUCTS</a></div>
             <div class="menu"><a href="booking.html">BOOKING</a></div>
-            <div id="logo"><a href="index.html"><img id="fimage" src="http://i.imgur.com/DeDx8KN.png"/></a></div>
+            <div id="logo"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png"/></a></div>
             <div class="menu currentpage"><a href="aboutus.html">ABOUT US</a></div>
             <div class="menu"><a href="contact.html">CONTACT</a></div>
             <div class="menu"></div>
             <div class="cclearcontent"></div>
             <div class="cupcontent">
-                <div class="headline"><h1>[ How the Company Started ]</h1></div>
+                <div class="headline"><h1>[ How the Company Started ]</h1><hr class="fade"></div>
                 <p class="page">Bean Around the Block was founded in 2015 by our beloved Joe Bean. Joe worked as a construction labourer for 10 years, and most of those days he would walk or drive to the nearest coffe shop or Starbucks. Joe had been getting tired of wasting the short breaks he had waiting in line for coffee, which wasn't even very good. Many of Joe's coworkers were just as frustrated; there just had to be a better and faster way to get coffee without wasting both personal and company time.</p>
                 <p class="page">&nbsp;</p>
                 <p class="page">And so began the idea for Bean Around the Block. Joe needed to determine how to combine convience and efficiency with the great organic and fair trade coffee that he loved. He decided to focus on a sustainable south american blend, with coffee beans hand picked by workers and free of chemicals and pesticides. Joe wanted to bring real coffee with a real service, and he needed to stand out from the competition.</p>
                 <p class="page">&nbsp;</p>
                 <p class="page">Today Bean Around the Block operates out of a fleet of our one-of-a-kind "Coffee Bar on Wheels" delivery trucks. Various trucks drive around Vancouver either to booked locations or to popular coffee drinking spots. Our aim is to provide services where coffee shops arent conveniently located such as construction sites and recreational areas. Providing the best cup of coffee with the most convenience for you is what we strive to accomplish.</p>
                 <p class="page">&nbsp;</p>
-                <div class="headline"><h1>[ Our Values ]</h1></div>
+                <div class="headline"><h1>[ Our Values ]</h1><hr class="fade"></div>
                 <div class="lowline"><h2>Quality</h2></div>
                 <p class="page">Quality coffee and quality service. Bean Around the Block believes in using only the highest quality organic fair trade coffee product blends from South America. This allows us to serve our customers with a smile knowing we offer the best product available. The goal of our team is to make every customer's day a little brighter and healthier, one cup at a time.</p>
                 <p class="page">&nbsp;</p>
@@ -45,8 +50,9 @@
                 <p class="page">&nbsp;</p>
                 <p class="page">&nbsp;</p>
                 <div class="lowline"><h2>Please Enjoy a short video we have put together</h2></div>
-                <iframe id="productframe" src="https://www.youtube.com/embed/NhzwoE74h2A" frameborder="0" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/NhzwoE74h2A" name="iframe_prod" id="productframe" height="700px" frameborder="0" onload='javascript:resizeIframe(this);'  frameborder="0" allowfullscreen></iframe>
                 <p class="page">&nbsp;</p>
+                <div class="headline"><hr class="fade"></div>
             </div>
             <span>&nbsp;</span>
         </div>

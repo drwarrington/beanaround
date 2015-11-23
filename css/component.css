@@ -31,7 +31,7 @@
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #2c3f52;
+	background: #333333;
 	color: #e3e2e1;
 }
 
@@ -59,28 +59,27 @@
 
 .cs-style-5 figure img {
 	z-index: 10;
-	-webkit-transition: -webkit-transform 0.4s;
-	-moz-transition: -moz-transform 0.4s;
-	transition: transform 0.4s;
+	-webkit-transition: -webkit-transform 0.8s;
+	-moz-transition: -moz-transform 0.8s;
+	transition: transform 0.8s;
 }
 
 .no-touch .cs-style-5 figure:hover img,
 .cs-style-5 figure.cs-hover img {
 	
-    opacity: 0.1;
+    opacity: 0.2;
 }
 
 .cs-style-5 figcaption {
 	height: 100%;
 	width: 100%;
-	opacity: 0.5;
-	
+	opacity: 0.8;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.4s;
-	transition: transform 0.4s, opacity 0.4s;
+	-webkit-transition: -webkit-transform 0.8s, opacity 0.8s;
+	-moz-transition: -moz-transform 0.8s, opacity 0.8s;
+	transition: transform 0.8s, opacity 0.8s;
 }
 
 .no-touch .cs-style-5 figure:hover figcaption,
