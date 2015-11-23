@@ -1,7 +1,15 @@
-        @font-face {
-              font-family: 'White Elephant';
-              src: url('./assets/fonts/White Elephant/white_elephant-webfont.woff') format('woff');
-       }
+@font-face {
+    font-family: 'white_elephantregular';
+    src: url('assets/Fonts/White Elephant/white_elephant-webfont.eot') format('embedded-opentype'),
+         url('assets/Fonts/White Elephant/white_elephant-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/Fonts/White Elephant/white_elephant-webfont.woff2') format('woff2'),
+         url('assets/Fonts/White Elephant/white_elephant-webfont.woff') format('woff'),
+         url('assets/Fonts/White Elephant/white_elephant-webfont.ttf') format('truetype'),
+         url('assets/Fonts/White Elephant/white_elephant-webfont.svg#white_elephantregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
        
         body 
         {
