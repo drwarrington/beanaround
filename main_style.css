@@ -10,6 +10,10 @@
     font-style: normal;
 
 }
+
+html    {
+    height: 100%;
+}
        
         body 
         {
@@ -18,12 +22,18 @@
             margin: 0px auto;
             padding: 0px;
             background-color: #e8e8e8;
+            height: 100%;
         }
         
+h1.homepage {
+    font-size: 4vw;
+}
+
         h2.homepage
         {
             margin-left: 60px;
             margin-right: 60px;
+            font-size: 5vw;
         }
 
         img.bg
@@ -65,9 +75,12 @@
             float: left;
             width: 100%;
             clear: both;
-            margin: 0 auto;
+            margin: 0 auto -4em;
             padding: 0px;
             position: relative;
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
         }
         
         .brownhover:hover
@@ -140,6 +153,13 @@ hr.fade {
     height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+hr.darkfade {
+    border: 0;
+    height: 1px;
+    background: #e8e8e8;
+    background-image: linear-gradient(to right, #333, #ccc, #333);
 }
         
         #logo
@@ -261,17 +281,6 @@ hr.fade {
             color: #000000;
             text-align: center;
             
-        }
-        
-        .footers 
-        {
-            width: 25%;
-            float: left;
-            margin: 0 auto;
-            background-color: #cccccc;
-            clear: none;
-            height: 20%;
-            margin-bottom: 5px;
         }
         
         #foot
@@ -401,7 +410,7 @@ hr.fade {
     margin: 0 auto;
     height: auto;
     display: block;
-    height: 700px;
+    height: 500px;
 }
 
 .productImages  {
@@ -411,7 +420,7 @@ hr.fade {
     float: left;
 }
 
-.framecontent 
+.framecontent
 {
     text-align: center;
     width: 100%;
@@ -422,9 +431,13 @@ hr.fade {
     font-size: 2vw;
     font-family: 'White Elephant';
     margin-bottom: 5px;
-    color: #e3e2e1;
+    color: #333333;
     text-shadow: 1px 1px 4px #666666;
-        }
+}
+
+.framecontent a {
+    color: #333333;
+}
 
 #tagline    {
     float: left;
@@ -462,6 +475,48 @@ hr.fade {
             margin-bottom: 5px;
             margin-left: 5%;
         }
+
+/** FOOTER **/
+
+.footer
+{
+    min-height: 15%;
+    height: 4em;
+    clear: both;
+    background-color: #e8e8e8;
+}
+
+.footer a {
+    margin: 0 auto;
+    position: relative;
+    color: #333333;
+}
+    
+.push
+{
+    min-height: 15%;
+    height: 4em;
+    clear: both;
+}
+        
+#footercontent  {
+    text-align: left;
+    width: 50%;
+    float: left;
+    clear: none;
+    margin: 0 auto;
+    margin-left: 10%;
+    font-size: 2vw;
+    font-family: 'White Elephant';
+    color: #333333;
+    text-shadow: 1px 1px 4px #999999;
+}
+
+#socialmedia    {
+    float: right;
+    width: 18%;
+    margin-right: 10%;
+}
 
 /*************************/
 /***** MEDIA QUERIES *****/
