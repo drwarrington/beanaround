@@ -105,6 +105,21 @@
             font-family: 'White Elephant';
             text-shadow: 1px 1px 4px #666666;
         }
+
+.menuside   {
+    height: 60px;
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 2vw;
+    width: 15%;
+    float: left;
+    clear: none;
+    margin-bottom: 5px;
+    align-items: baseline;
+    position: relative;
+    font-family: 'White Elephant';
+    text-shadow: 1px 1px 4px #666666;
+}
         
         .menu a {
             margin: 0 auto;
@@ -138,6 +153,15 @@ hr.fade {
             margin-bottom: 5px;
             position: relative;
         }
+
+#logo2  {
+    margin: 0px auto;
+    padding: 0px;
+    width: 0%;
+    float: left;
+    clear: none;
+    position: relative;
+}
 
         .clearcontent 
         {
@@ -438,4 +462,87 @@ hr.fade {
             margin-bottom: 5px;
             margin-left: 5%;
         }
+
+/*************************/
+/***** MEDIA QUERIES *****/
+/*************************/
+
+/** max-width for smaller than **/
+/** 480 , 768 , 1024 **/
+
+@media only screen and (max-width: 480px)   {
+    .menu   {
+        width: 100%;
+        font-size: 15vw;
+        height: 100px;
+    }
+    
+    .menuside   {
+        width: 0%;
+    }
+    
+    #logo   {
+        width: 0%;
+    }
+    
+    #logo2  {
+        width: 30%;
+        margin: 0px auto;
+        margin-left: 35%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 480px)   {
+    .menu   {
+        width: 100%;
+        font-size: 10vw;
+        height: 100px;
+    }
+    
+    .menuside   {
+        width: 0%;
+    }
+    
+    #logo   {
+        width: 0%;
+    }
+    
+    #logo2  {
+        width: 20%;
+        margin: 0px auto;
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+    .menu   {
+        width: 50%;
+        font-size:7vw;
+    }
+    
+    .menuside   {
+        width: 0%;
+    }
+    
+    #logo   {
+        width: 0%;
+    }
+    
+    #logo2  {
+        width: 20%;
+        margin: 0px auto;
+        margin-left: 40%;
+        
+    }
+    
+    #fimage {
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+
+
+
+
 
