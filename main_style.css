@@ -40,7 +40,13 @@ h1.homepage {
         {
             width: 100%;
             position: absolute;
+            z-index: -1;
         }
+
+img.mid {
+    width: 100%;
+    position: relative;
+}
         
         #fimage
         {
@@ -100,7 +106,12 @@ h1.homepage {
             padding: 0px;
             width: 100%;
             margin: 0 auto;
-            overflow: visible;
+            position: relative;
+            float: left;
+            clear: both;
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
         }
         
         .menu 
@@ -218,7 +229,7 @@ hr.darkfade {
         .bigclearcontent 
         {
             width: 100%;
-            height: 500px;
+            height: 30vw;
             float: left;
             clear: none;
             margin: 0 auto;
@@ -442,13 +453,13 @@ hr.darkfade {
 #tagline    {
     float: left;
     margin-left: 3%;
-    width: 50%;
+    width: 40%;
 }
 
 #organic    {
     float: right;
     margin-right: 3%;
-    width: 33%;
+    width: 25%;
 }
         /**************************************OTHER*********************************************/
 
