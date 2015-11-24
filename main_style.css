@@ -442,11 +442,13 @@ hr.darkfade {
 #tagline    {
     float: left;
     margin-left: 3%;
+    width: 50%;
 }
 
 #organic    {
     float: right;
     margin-right: 3%;
+    width: 33%;
 }
         /**************************************OTHER*********************************************/
 
