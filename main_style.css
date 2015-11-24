@@ -14,7 +14,7 @@
         body 
         {
             font-family: 'Roboto', sans-serif;
-            font-size: 14pt;
+            font-size: 1vw;
             margin: 0px auto;
             padding: 0px;
             background-color: #e8e8e8;
@@ -95,7 +95,7 @@
             height: 60px;
             margin: 0px auto;
             padding: 0px;
-            font-size: 24pt;
+            font-size: 2vw;
             width: 15%;
             float: left;
             clear: none;
@@ -146,7 +146,7 @@ hr.fade {
             float: left;
             clear: none;
             margin: 0 auto;
-            font-size: 200%;
+            font-size: 2vw;
             font-family: 'White Elephant';
             margin-bottom: 5px;
             color: #e3e2e1;
@@ -162,7 +162,7 @@ hr.fade {
             float: left;
             clear: none;
             margin: 0 auto;
-            font-size: 200%;
+            font-size: 2vw;
             font-family: 'White Elephant';
             margin-bottom: 5px;
             color: #e3e2e1;
@@ -204,7 +204,7 @@ hr.fade {
             clear: none;
             margin: 0 auto;
             margin-left: 10%;
-            font-size: 200%;
+            font-size: 2vw;
             font-family: 'White Elephant';
             margin-bottom: 5px;
             color: #333333;
@@ -231,7 +231,7 @@ hr.fade {
             clear: none;
             margin: 0 auto;
             margin-left: 20%;
-            font-size: 1rem;
+            font-size: 1vw;
             font-family: 'Roboto';
             margin-bottom: 5px;
             color: #000000;
@@ -274,7 +274,7 @@ hr.fade {
                 display: block;
                 clear: both;
                 font-family: 'White Elephant';
-                font-size: 25pt;
+                font-size: 2vw;
                 letter-spacing: 1pt;
             }
             p, label, placeholder, legend { font-family: 'Roboto'; }
@@ -290,7 +290,7 @@ hr.fade {
                 float: left;
             }
             h3 {
-                font-size: 18pt;
+                font-size: 1.5vw;
                 font-kerning: none;
                 font-weight: bolder;
             }
@@ -339,7 +339,7 @@ hr.fade {
             input[type=submit] {
                 margin-bottom: 5px;
                 color: #e8e8e8;
-                font-size: 14pt;
+                font-size: 1vw;
                 width: 200px;
                 height: 50px;
                 padding:5px 15px; 
@@ -352,7 +352,7 @@ hr.fade {
             input[type=reset] {
                 margin-bottom: 5px;
                 color: #e8e8e8;
-                font-size: 14pt;
+                font-size: 1vw;
                 width: 200px;
                 height: 50px;
                 padding:5px 15px;
@@ -395,7 +395,7 @@ hr.fade {
     float: left;
     clear: none;
     margin: 0 auto;
-    font-size: 200%;
+    font-size: 2vw;
     font-family: 'White Elephant';
     margin-bottom: 5px;
     color: #e3e2e1;
@@ -434,7 +434,7 @@ hr.fade {
             float: left;
             clear: none;
             margin: 0 auto;
-            font-size: 200%;
+            font-size: 2vw;
             margin-bottom: 5px;
             margin-left: 5%;
         }
