@@ -15,120 +15,124 @@ html    {
     height: 100%;
 }
        
-        body 
-        {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1vw;
-            margin: 0px auto;
-            padding: 0px;
-            background-color: #e8e8e8;
-            height: 100%;
-        }
+body 
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #e8e8e8;
+    height: 100%;
+}
+
+#pagewrap
+{
+    padding: 0px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    clear: both;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.backg  {
+    background-image: url(assets/Home/HomeHeader.jpg);
+    background-size: 100%;
+}
+
+#wrap
+{
+    float: left;
+    width: 100%;
+    clear: both;
+    margin: 0 auto -4em;
+    padding: 0px;
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
         
 h1.homepage {
     font-size: 4vw;
 }
 
-        h2.homepage
-        {
-            margin-left: 60px;
-            margin-right: 60px;
-            font-size: 5vw;
-        }
+h2.homepage
+{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 5vw;
+}
 
-        img.bg
-        {
-            width: 100%;
-            position: absolute;
-            z-index: -1;
-        }
+img.bg
+{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
 
 img.mid {
     width: 100%;
     position: relative;
 }
         
-        #fimage
-        {
-            float: left;
-            align-content: center;
-            width: 100%;
-        }
+#fimage
+{
+    float: left;
+    align-content: center;
+    width: 100%;
+}
         
-        a:link
-        {
-            color: #e3e2e1;
-            text-decoration: none;
-            text-shadow: 1px 1px 4px #666666;
-        }
+a:link
+{
+    color: #e3e2e1;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px #666666;
+}
         
-        a:visited
-        {
-            color: #e3e2e1;
-            text-decoration: none;
-            text-shadow: 1px 1px 4px #666666;
-        }
+a:visited
+{
+    color: #e3e2e1;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px #666666;
+}
+    
+a:hover
+{
+    color: #2D5829;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px #54B863;
+}
         
-        a:hover
-        {
-            color: #2D5829;
-            text-decoration: none;
-            text-shadow: 1px 1px 4px #54B863;
-        }
+.brownhover:hover
+{
+    color: #73503f;
+    text-shadow: 1px 1px 4px #3c2e27; 
+}
+    
+.greenhover:hover
+{
+    color: #2D5829;
+    text-shadow: 1px 1px 4px #54B863; 
+}
         
-        #wrap
-        {
-            float: left;
-            width: 100%;
-            clear: both;
-            margin: 0 auto -4em;
-            padding: 0px;
-            position: relative;
-            min-height: 100%;
-            height: auto !important;
-            height: 100%;
-        }
-        
-        .brownhover:hover
-        {
-            color: #73503f;
-            text-shadow: 1px 1px 4px #3c2e27; 
-        }
-        
-        .greenhover:hover
-        {
-            color: #2D5829;
-            text-shadow: 1px 1px 4px #54B863; 
-        }
-        
-        #pagewrap
-        {
-            padding: 0px;
-            width: 100%;
-            margin: 0 auto;
-            position: relative;
-            float: left;
-            clear: both;
-            min-height: 100%;
-            height: auto !important;
-            height: 100%;
-        }
-        
-        .menu 
-        {
-            height: 60px;
-            margin: 0px auto;
-            padding: 0px;
-            font-size: 2vw;
-            width: 15%;
-            float: left;
-            clear: none;
-            margin-bottom: 5px;
-            align-items: baseline;
-            position: relative;
-            font-family: 'White Elephant';
-            text-shadow: 1px 1px 4px #666666;
-        }
+.menu   {
+    height: 60px;
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 2vw;
+    width: 15%;
+    float: left;
+    clear: none;
+    margin-bottom: 5px;
+    align-items: baseline;
+    position: relative;
+    font-family: 'White Elephant';
+    text-shadow: 1px 1px 4px #666666;
+}
 
 .menuside   {
     height: 60px;
@@ -145,15 +149,14 @@ img.mid {
     text-shadow: 1px 1px 4px #666666;
 }
         
-        .menu a {
-            margin: 0 auto;
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            margin-right: -50%;
-            transform: translate(-50%, -50%)
- 
-        }
+.menu a {
+    margin: 0 auto;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
 
 .currentpage a{
     text-decoration: underline;
@@ -421,7 +424,7 @@ hr.darkfade {
     margin: 0 auto;
     height: auto;
     display: block;
-    height: 500px;
+    height: 35vw;
 }
 
 .productImages  {
