@@ -41,6 +41,31 @@ body
 .backg  {
     background-image: url(assets/Home/HomeHeader.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.menug  {
+    background-image: url(assets/Menu/MenuBanner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.bookg  {
+    background-image: url(assets/Booking/BookBanner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.aboutg {
+    background-image: url(assets/About/aboutbanner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.contactg   {
+    background-image: url(assets/Contact/ContactBanner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #wrap
