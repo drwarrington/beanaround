@@ -162,6 +162,10 @@ a:hover
     text-decoration: underline;
 }
 
+#footerpage {
+    text-decoration: underline;
+}
+
 hr.fade {
     border: 0;
     height: 1px;
@@ -417,6 +421,22 @@ hr.darkfade {
 }
 
 /** PRODUCTS **/
+
+.fadein {
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3vw;
+    height: auto;
+    min-height: 30vw;
+}
+
+.fadein img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
 
 #productframe
 {

@@ -9,11 +9,21 @@
         @import url(https://fonts.googleapis.com/css?family=Roboto);
         @import url(https://fonts.googleapis.com/css?family=Squada+One|Averia+Sans+Libre|Metamorphous|Happy+Monkey);
         </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script language="javascript" type="text/javascript">
-  function resizeIframe(obj) {
-    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-  }
-</script>
+            function resizeIframe(obj) {
+                obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+            }
+            
+            $(function(){
+                $('.fadein img:gt(0)').hide();
+                setInterval(function(){
+                    $('.fadein :first-child').fadeOut()
+                        .next('img').fadeIn()
+                        .end().appendTo('.fadein');}, 
+                    3000);
+            });
+        </script>
     </head>
     <body>
         <div id="wrap">
@@ -21,7 +31,7 @@
         <div id="pagewrap">
             <div id="logo2"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png"/></a></div>
             <div class="menuside"></div>
-            <div class="menu currentpage"><a href="products.html">PRODUCTS</a></div>
+            <div class="menu currentpage"><a href="products.html">MENU</a></div>
             <div class="menu"><a href="booking.html">BOOKING</a></div>
             <div id="logo"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png"/></a></div>
             <div class="menu"><a href="aboutus.html">ABOUT US</a></div>
@@ -32,7 +42,18 @@
                 <img id="organic" src="assets/Menu/Organic.png" alt="organic"/>
             </div>
             <div class="cupcontent">
-                <div class="headline"><h1>[ Our Products ]</h1><hr class="fade"></div>
+                <div class="fadein">
+                    <img src="assets/Menu/Gallery/GirlGallery.jpg">
+                    <img src="assets/Menu/Gallery/BeansGallery.jpg">
+                    <img src="assets/Menu/Gallery/DonutsGallery.jpg">
+                    <img src="assets/Menu/Gallery/FireGallery.jpg">
+                    <img src="assets/Menu/Gallery/MuffinsGallery.jpg">
+                    <img src="assets/Menu/Gallery/PastriesGallery.jpg">
+                    <img src="assets/Menu/Gallery/PourGallery.jpg">
+                    <img src="assets/Menu/Gallery/SackGallery.jpg">
+                </div>
+                </div>
+                <div class="headline"><h1>[ Our Menu ]</h1><hr class="fade"></div>
                 <p class="page">&nbsp;</p>
                 <div class="framecontent"><a href="coffee.html" target="iframe_prod">COFFEE</a> | <a href="tea.html" target="iframe_prod">TEA</a> | <a href="pastries.html" target="iframe_prod">PASTRIES</a></div>
                 <iframe src="coffee.html" name="iframe_prod" id="productframe" frameborder="0" onload='javascript:resizeIframe(this);' scrolling="no"><p>Your browser does not support iframes.</p></iframe>
@@ -44,8 +65,9 @@
         </div>
         <div class="footer">
             <hr class="fade">
+            <p class="page">&nbsp;</p>
             <div class="lowline" id="footercontent">
-                <a href="index.html">HOME</a> | <a href="products.html">PRODUCTS</a> | <a href="booking.html">BOOKING</a> | <a href="aboutus.html">ABOUT US</a> | <a href="contact.html">CONTACT</a></div>
+                <a href="index.html">HOME</a> | <a href="products.html" id="footerpage">MENU</a> | <a href="booking.html">BOOKING</a> | <a href="aboutus.html">ABOUT US</a> | <a href="contact.html">CONTACT</a></div>
             <div id="socialmedia">
                 <a href=""><img src="assets/Static/FacebookIcon.png"/></a>
                 <a href=""><img src="assets/Static/TwitterIcon.png"/></a>
