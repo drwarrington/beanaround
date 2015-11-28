@@ -110,6 +110,12 @@ img.mid {
     float: left;
     align-content: center;
     width: 100%;
+    -moz-box-shadow: 0px 0px 50px black;
+    -webkit-box-shadow: 0px 0px 50px black;
+    box-shadow: 0px 0px 50px black;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 1000px;
 }
         
 a:link
@@ -128,20 +134,20 @@ a:visited
     
 a:hover
 {
-    color: #2D5829;
+    color: #7ab181;
     text-decoration: none;
-    text-shadow: 1px 1px 4px #54B863;
+    text-shadow: 1px 1px 4px #393735;
 }
         
 .brownhover:hover
 {
-    color: #73503f;
+    color: #574944;
     text-shadow: 1px 1px 4px #3c2e27; 
 }
     
 .greenhover:hover
 {
-    color: #2D5829;
+    color: #557256;
     text-shadow: 1px 1px 4px #54B863; 
 }
         
@@ -206,17 +212,17 @@ hr.darkfade {
     background-image: linear-gradient(to right, #333, #ccc, #333);
 }
         
-        #logo
-        {
-            margin: 0px auto;
-            padding: 0px;
-            width: 10%;
-            height: auto;
-            float: left;
-            clear: none;
-            margin-bottom: 5px;
-            position: relative;
-        }
+#logo
+{
+    margin: 0px auto;
+    padding: 0px;
+    width: 10%;
+    height: auto;
+    float: left;
+    clear: none;
+    margin-bottom: 5px;
+    position: relative;
+}
 
 #logo2  {
     margin: 0px auto;
@@ -227,217 +233,233 @@ hr.darkfade {
     position: relative;
 }
 
-        .clearcontent 
-        {
-            width: 50%;
-            height: 200px;
-            float: left;
-            clear: none;
-            margin: 0 auto;
-            font-size: 2vw;
-            font-family: 'White Elephant';
-            margin-bottom: 5px;
-            color: #e3e2e1;
-            text-shadow: 1px 1px 4px #666666;
-            position: relative;
-            text-align: center;
-        }
+.clearcontent 
+{
+width: 50%;
+height: 200px;
+float: left;
+clear: none;
+margin: 0 auto;
+font-size: 2vw;
+font-family: 'White Elephant';
+margin-bottom: 5px;
+color: #e3e2e1;
+text-shadow: 1px 1px 4px #666666;
+position: relative;
+text-align: center;
+}
 
-        .cclearcontent 
-        {
-            width: 100%;
-            height: 200px;
-            float: left;
-            clear: none;
-            margin: 0 auto;
-            font-size: 2vw;
-            font-family: 'White Elephant';
-            margin-bottom: 5px;
-            color: #e3e2e1;
-            text-shadow: 1px 1px 4px #666666;
-            position: relative;
-            text-align: center;
-        }
+.cclearcontent 
+{
+width: 100%;
+height: 200px;
+float: left;
+clear: none;
+margin: 0 auto;
+font-size: 2vw;
+font-family: 'White Elephant';
+margin-bottom: 5px;
+color: #e3e2e1;
+text-shadow: 1px 1px 4px #666666;
+position: relative;
+text-align: center;
+}
 
-        .bigclearcontent 
-        {
-            width: 100%;
-            height: 30vw;
-            float: left;
-            clear: none;
-            margin: 0 auto;
-            font-size: 200%;
-            font-family: 'White Elephant';
-            margin-bottom: 5px;
-            color: #e3e2e1;
-            text-shadow: 1px 1px 4px #666666;
-            position: relative;
-            text-align: center;
-        }
-        
-        .cupcontent 
-        {
-            width: 100%;
-            float: left;
-            margin: 0 auto;
-            background-color: #e8e8e8;
-            margin-bottom: 5px;
-            position: relative;
-        }
+.bigclearcontent 
+{
+width: 100%;
+height: 30vw;
+float: left;
+clear: none;
+margin: 0 auto;
+font-size: 200%;
+font-family: 'White Elephant';
+margin-bottom: 5px;
+color: #e3e2e1;
+text-shadow: 1px 1px 4px #666666;
+position: relative;
+text-align: center;
+}
 
-        .headline 
-        {
-            width: 80%;
-            float: left;
-            clear: none;
-            margin: 0 auto;
-            margin-left: 10%;
-            font-size: 20pt;
-            font-family: 'White Elephant';
-            margin-bottom: 5px;
-            color: #333333;
-            text-align: center;
-        }
+.cupcontent 
+{
+width: 100%;
+float: left;
+margin: 0 auto;
+background-color: #e8e8e8;
+margin-bottom: 5px;
+position: relative;
+}
 
-        .lowline 
-        {
-            width: 80%;
-            float: left;
-            clear: none;
-            margin: 0 auto;
-            margin-left: 10%;
-            font-family: 'Roboto';
-            margin-bottom: 5px;
-            color: #333333;
-            text-align: center;
-        }
+.headline 
+{
+width: 80%;
+float: left;
+clear: none;
+margin: 0 auto;
+margin-left: 10%;
+font-size: 20pt;
+font-family: 'White Elephant';
+margin-bottom: 5px;
+color: #4c4340;
+text-align: center;
+}
 
-        p.page
-        {
-            width: 60%;
-            float: left;
-            clear: none;
-            margin: 0 auto;
-            margin-left: 20%;
-            font-size: 1vw;
-            font-family: 'Roboto';
-            margin-bottom: 5px;
-            color: #000000;
-            text-align: center;
-            
-        }
-        
-        #foot
-        {
-            width: 80%;
-            margin: 0 auto;
-            margin-left: 10%;
-            background-color: #e3e2e1;
-            color: #3c3c3c;
-            clear: both;
-            float: left;
-            position: absolute;
-            
-        }
+.lowline 
+{
+width: 80%;
+float: left;
+clear: none;
+margin: 0 auto;
+margin-left: 10%;
+font-family: 'Roboto';
+margin-bottom: 5px;
+color: #333333;
+text-align: center;
+}
 
-        /**************************************BOOKING*******************************************/
-            
-            h3 {
-                display: block;
-                clear: both;
-                font-family: 'White Elephant';
-                font-size: 2vw;
-                letter-spacing: 1pt;
-                font-size: 16pt;
-                font-kerning: none;
-                font-weight: bolder;
-            }
-            p, label, placeholder, legend {
-                font-family: 'Roboto';
-                font-size: 10pt;
-            }
-            .contact1 {
-                width: 50%;
-                height: auto;
-                float: left;
-            }
-            .booktext {
-                line-height: normal;
-                margin: 0;
-                padding: 0;
-                display: inline;
-            }
-            label, legend {
-                font-weight: bold;
-            }
-            fieldset {
-                margin-bottom: 2px;
-                padding: 0;
-                margin-left: 0;
-                border: 0;
-            }
-            #submit_reset {
-                float: right;
-                margin-right: 2%;
-            }
-            input {
-                background-color: #fbfbfb;
-                border: 2px grey;
-                vertical-align: middle;
-                height: 30px;
-                width: auto;
-                display: inline;
-            }
-            textarea { 
-                background-color: #fbfbfb;
-                border: 2px grey;
-                width: 95%
-            }
-            .input100 {
-                width: 95%;
-            }
-            .input50 {
-                width: 47%;
-            }
-            select {
-                width: 47%;
-                background-color: #fbfbfb;
-                border: none;
-            }
-            input[type=checkbox] {
-                display: inline-block;
-            }
-            input[type=submit] {
-                margin-bottom: 5px;
-                color: #e8e8e8;
-                font-size: 10pt;
-                width: 200px;
-                height: 50px;
-                padding:5px 15px; 
-                background:#393735; 
-                border:0 none;
-                cursor:pointer;
-                -webkit-border-radius: 5px;
-                border-radius: 5px;
-            }
-            input[type=reset] {
-                margin-bottom: 5px;
-                color: #e8e8e8;
-                font-size: 10pt;
-                width: 200px;
-                height: 50px;
-                padding:5px 15px;
-                background:#393735; 
-                border:0 none;
-                cursor:pointer;
-                -webkit-border-radius: 5px;
-                border-radius: 5px;
-                input[type="reset"]:hover { background: red; }
-            }
-            .book   {
-                width: 80%;
-                margin-left: 10%;
-            }
+p.page
+{
+width: 60%;
+float: left;
+clear: none;
+margin: 0 auto;
+margin-left: 20%;
+font-size: 1vw;
+font-family: 'Roboto';
+margin-bottom: 5px;
+color: #000000;
+text-align: center;
+
+}
+
+#foot
+{
+width: 80%;
+margin: 0 auto;
+margin-left: 10%;
+background-color: #e3e2e1;
+color: #3c3c3c;
+clear: both;
+float: left;
+position: absolute;
+
+}
+
+/**************************************BOOKING*******************************************/
+
+h3 {
+    color: #4c4340;
+    display: block;
+    clear: both;
+    font-family: 'White Elephant';
+    font-size: 2vw;
+    letter-spacing: 1pt;
+    font-size: 16pt;
+    font-kerning: none;
+    font-weight: bolder;
+}
+p, label, placeholder, legend {
+    font-family: 'Roboto';
+    font-size: 10pt;
+}
+.contact1 {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.booktext {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+label, legend {
+    font-weight: bold;
+}
+fieldset {
+    margin-bottom: 2px;
+    padding: 0;
+    margin-left: 0;
+    border: 0;
+}
+#submit_reset {
+    float: right;
+    margin-right: 2%;
+}
+input {
+    background-color: #fbfbfb;
+    border: 2px grey;
+    vertical-align: middle;
+    height: 30px;
+    width: auto;
+    display: inline;
+}
+textarea { 
+    background-color: #fbfbfb;
+    border: 2px grey;
+    width: 95%
+}
+.input100 {
+    width: 95%;
+}
+.input50 {
+    width: 47%;
+}
+select {
+    width: 47%;
+    background-color: #fbfbfb;
+    border: none;
+}
+input[type=checkbox] {
+    display: inline-block;
+}
+input[type=submit] {
+    margin-bottom: 5px;
+    color: #e8e8e8;
+    font-size: 10pt;
+    width: 200px;
+    height: 50px;
+    padding:5px 15px; 
+    background:#393735; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=submit]:hover {
+    color: #393735;
+    background: #7ab181;
+}
+input[type=submit]:active {
+    color: #e8e8e8;
+    background: #393735;
+}
+input[type=reset] {
+    margin-bottom: 5px;
+    color: #e8e8e8;
+    font-size: 10pt;
+    width: 200px;
+    height: 50px;
+    padding:5px 15px;
+    background:#393735; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type=reset]:hover {
+    color: #393735;
+    background: #7ab181;
+}
+input[type=reset]:active {
+    color: #e8e8e8;
+    background: #393735;
+}
+.book   {
+    width: 80%;
+    margin-left: 10%;
+}
 
 /**************************************PRODUCTS*******************************************/
 
@@ -505,38 +527,37 @@ hr.darkfade {
 }
 
 /**************************************ABOUT*********************************************/
-          .contact3 {
-              clear: both;
-          }
-          #para {
-              width: 100%;
-              float: left;
-              margin: 0 auto;
-              font-size: 10pt;
-              font-family: 'Roboto';
-              margin-bottom: 5px;
-              text-align: justify;
-          }
-          .greentext {
-              color: #557256;
-              text-align: left;
-              margin: 30px 0 5px 0;
-          }
+.contact3 {
+  clear: both;
+}
+#para {
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+  font-size: 10pt;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  text-align: justify;
+}
+.greentext {
+  color: #557256;
+  text-align: left;
+  margin: 30px 0 5px 0;
+}
 
-          /* Here are the images*/
-          #coffeebag {
-             width: 85%;
-          }
-          #roasting {  
-             width: 85%;
-             margin-left: 10%;
-             margin: 40px 0 10px 0;
-          }
-          #truck {
-             width: 90%;
-             margin-left: 10%;
-          }
-
+/* Here are the images*/
+#coffeebag {
+ width: 85%;
+}
+#roasting {  
+ width: 85%;
+ margin-left: 10%;
+ margin: 40px 0 10px 0;
+}
+#truck {
+ width: 90%;
+ margin-left: 10%;
+}
 
 /**************************************CONTACT*******************************************/
 
@@ -572,7 +593,6 @@ hr.darkfade {
     margin-right: 13px;
 }
 
-
 /**************************************OTHER*********************************************/
 
 
@@ -582,18 +602,18 @@ hr.darkfade {
     font-weight: 800
 }
 
-        .clear 
-        {
-            width: 50%;
-            float: left;
-            clear: none;
-            margin: 0 auto;
-            font-size: 2vw;
-            margin-bottom: 5px;
-            margin-left: 5%;
-        }
+.clear 
+{
+    width: 50%;
+    float: left;
+    clear: none;
+    margin: 0 auto;
+    font-size: 2vw;
+    margin-bottom: 5px;
+    margin-left: 5%;
+}
 
-/** FOOTER **/
+/**************************************FOOTER*********************************************/
 
 .footer
 {
