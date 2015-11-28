@@ -5,52 +5,27 @@
       <title>About Us | Bean Around the Block</title>
       <link rel="stylesheet" href="main_style.css">
       <style>
-         @import url(https://fonts.googleapis.com/css?family=Roboto);
-         @import url(https://fonts.googleapis.com/css?family=Squada+One|Averia+Sans+Libre|Metamorphous|Happy+Monkey);
-         #para   {   
-         width: 60%;
-         float: left;
-         margin: 0 auto;
-         margin-left: 10%;
-         font-size: 1vw;
-         font-family: 'Roboto';
-         margin-bottom: 5px;
-         color: #000000;
-         text-align:left;
-         } 
-         #para2   {   
-         width: 60%;
-         float: left;
-         margin: 0 auto;
-         margin-left: 50%;
-         font-size: 1vw;
-         font-family: 'Roboto';
-         margin-bottom: 5px;
-         color: #000000;
-         text-align:left;
-         } 
-         .greentext
-         {   color:green;
-         margin-left:50%;
-         text-align: left;
-         }
-         /* Here are the images*/
-         #coffeebag
-         {   
-         position:absolute;
-         margin: 42.5% 0 0 15%;
-         }
-         #roasting
-         {  
-         position:absolute;
-         margin: 63% 0 0 15%;
-         }
-         #truck
-         {   
-         position:absolute;
-         margin: 12% 0 0 58%;
-         }
-         /**/
+          /*****1000px*****/
+            @media screen and (max-width: 1000px) {
+                #para {
+                    text-align: center;
+                }
+                .greentext {
+                    font-size: 12pt;
+                    margin-top: 0;
+                    text-align: center;
+                }
+                .contact2 {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    clear: both;
+                    display: block;
+                }
+                #truck { 
+                    margin-left: 4%;
+                }
+                #roasting, #coffeebag { display: none; }
+            }
       </style>
       <script language="javascript" type="text/javascript">
          function resizeIframe(obj) {
@@ -61,6 +36,7 @@
    <body>
       <div id="wrap" class="aboutg">
          <div id="pagewrap">
+             <br>
             <div id="logo2"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png"/></a></div>
             <div class="menuside"></div>
             <div class="menu"><a href="products.html">MENU</a></div>
@@ -71,52 +47,60 @@
             <div class="menuside"></div>
             <div class="cclearcontent"></div>
             <div class="cupcontent">
-               <div class="headline">
+                <div class="headline">
                   <h1>[ How the Company Started ]</h1>
                   <hr class="fade">
-               </div>
-               <p id="para" class="page">Bean Around the Block was founded in 2015 by our beloved Joe Bean. Having worked as a<br>construction labourer for 10 years Joe had been getting tired of wasting the little break time he<br>was given, standing in line to get his daily coffee which wasnt that good. There just had to be a<br>better and faster way to get coffee without wasting both personal and company time.</p>
-               <p id="para" class="page">&nbsp;</p>
-               <p id="para" class="page">And so began the idea for Bean Around the Block. Joe wanted to figure out how to combine<br>convenience with Organic fair trade south american blends. Hand picked by workers and free from<br>artificial fertilizers and Pesticides. He wanted to bring real coffee to the people, not people to the coffee.</p>
-               <p id="para" class="page">&nbsp;</p>
-               <p id="para" class="page">Today Bean Around the Block operates out of a mobile coffee truck, driving to various locations<br>throughout Greater Vancouver every day of the week. Our aim is to provide services where coffee<br>shops aren't conveniently located such as construction sites and recreational areas. Providing a<br>
-                  high quality product every time, everywhere&#x00021;
-               </p>
-               <div id="truck"><img src="./assets/About/beantruck.png" height="250" width="400"> </div>
-               <p id="para" class="page">&nbsp;</p>
-               <div class="headline">
-                  <h1>[ Our Values ]</h1>
-                  <hr class="fade">
-               </div>
-               <div id="roasting"><img src="./assets/About/Roasting.jpg"  height="250" width="400"></div>
-               <div id="coffeebag"><img src="./assets/About/Coffee Sack.jpg" height="250" width="400"></div>
+                </div>
+                <div class="book">
+                    <div>
+                        <div class="contact2">
+                        <p id="para">Bean Around the Block was founded in 2015 by our beloved Joe Bean. Having worked as a construction labourer for 10 years, Joe had been getting tired of wasting the little break time he was given, standing in line to get his daily coffee–which wasnt that good. There just had to be a better and faster way to get coffee without wasting both personal and company time.</p>
+                        <p id="para">&nbsp;</p>
+                        <p id="para">And so began the idea for Bean Around the Block. Joe wanted to figure out how to combine convenience with the Organic fair trade South American blends. Hand picked by workers and free from artificial fertilizers and pesticides, he wanted to bring real coffee to the people; not people to the coffee.</p>
+                        <p id="para">&nbsp;</p>
+                        <p id="para">Today, Bean Around the Block operates out of a mobile coffee truck, driving to various locations throughout Greater Vancouver every day of the week. Our aim is to provide services where coffee shops aren't conveniently located, such as construction sites and recreational areas, providing a high quality product every time, everywhere&#x00021;
+                        </p>
+                        </div>
+                        <div class="contact2">
+                            <img id="truck" src="./assets/About/beantruck.png"/>
+                        </div>
+                    </div>
+                    <p id="para" class="page">&nbsp;</p>
+                    <div class="contact3">
+                        <div class="headline">
+                            <h1>[ Our Values ]</h1>
+                            <hr class="fade">
+                        </div>
+                        <div class="contact2">
+                            <img id="roasting" src="./assets/About/Roasting.jpg">
+                            <img id="coffeebag" src="./assets/About/Coffee Sack.jpg">
+                        </div>
+                        <div class="contact2">
+                            <div>
+                                <h2 class="greentext">Quality</h2>
+                            </div>
+                            <p id="para">Quality coffee and uality service: Bean Around the Block believes in using only the highest quality organic fair trade coffee product blends from South America, allowing us to serve our customers with a smile knowing our products to be the best. The goal of our team is to make every customer's day a little brighter and healthier, one cup at a time.</p>
+                            <p id="para">&nbsp;</p>
+                            <h2 class="greentext">Convenience</h2>
+                            <p id="para">The roots of Bean Around the Block stem from the need for convenience. Our purpose is to add convenience to the lives of our customers by coming them.</p>
+                            <p id="para">&nbsp;</p>
+                            <h2 class="greentext">Community</h2>
+                            <p id="para">Giving back to the community is an integral part of what we do. We are part of a community and we feel responsible for bringing the community together in positive ways.</p>
+                            <p id="para" class="page">&nbsp;</p>
+                            <h2 class="greentext">Environment</h2>
+                            <p id="para">Caring for the environment is one of our highest priorities and we encourage our customers and employees to adopt the same philosophy. We do everything that we can do to reduce our carbon footprint by introducing 90% recycled paper cups while our coffee blends are certified fair trade and organic. We do this because we feel all natural is the best for us and the environment together.</p>
+                        </div>
+                    </div>
+                    <p id="para" class="page">&nbsp;</p>
+                    <p id="para" class="page">&nbsp;</p>
+               
                <div class="lowline">
-                  <h2 class="greentext">Quality</h2>
-               </div>
-               <p id="para2" class="page">Quality coffee and quality service. Bean Around the Block believes in using only the<br>highest quality organic fair trade coffee product blends from South America allowing<br>us to serve our customers with a smile knowing be offer the best. The goal of our<br>team is to make every customer's day a little brighter and healthier, one cup at a time.</p>
-               <p id="para" class="page">&nbsp;</p>
-               <div class="lowline">
-                  <h2 class="greentext">Convenience</h2>
-               </div>
-               <p id="para2" class="page">The roots of Bean Around the Block stem from the need for convenience. Our purpose<br>is to add convenience to the lives of our customers by coming them.</p>
-               <p class="page">&nbsp;</p>
-               <div class="lowline">
-                  <h2 class="greentext">Community</h2>
-               </div>
-               <p id="para2" class="page">Giving back to the community is an integral part of what we do. We are part of a<br>community and we feel responsible for bringing the community together in positive<br>ways.</p>
-               <p id="para" class="page">&nbsp;</p>
-               <div class="lowline">
-                  <h2 class="greentext">Environment</h2>
-               </div>
-               <p id="para2" class="page">Caring for the environment is one of our highest priorities and we encourage our<br>customers and employees to adopt the same philosophy. We do everything that we<br>can do reduce our carbon footprint and have recently introduced 90% recycled<br>paper cups. Our coffee blends are certified fair trade and organic, we do this because<br>we feel all natural is the best for us and the environment together.</p>
-               <p id="para" class="page">&nbsp;</p>
-               <p id="para" class="page">&nbsp;</p>
-               <div class="lowline">
-                  <h2>Please Enjoy a short video we have put together</h2>
+                  <h3>Please Enjoy a short video we have put together</h3>
                </div>
                <iframe src="https://www.youtube.com/embed/NhzwoE74h2A" name="iframe_prod" id="productframe" height="700px" frameborder="0" onload='javascript:resizeIframe(this);'  frameborder="0" allowfullscreen></iframe>
                <p id="para" class="page">&nbsp;</p>
             </div>
+
             <span>&nbsp;</span>
          </div>
          <div class="push"></div>
@@ -128,12 +112,12 @@
             <a href="index.html">HOME</a> | <a href="products.html">MENU</a> | <a href="booking.html">BOOKING</a> | <a href="aboutus.html" id="footerpage">ABOUT US</a> | <a href="contact.html">CONTACT</a>
          </div>
          <div id="socialmedia">
-            <a href=""><img src="assets/Static/FacebookIcon.png"/></a>
-            <a href=""><img src="assets/Static/TwitterIcon.png"/></a>
-            <a href=""><img src="assets/Static/InstagramIcon.png"/></a>
-            <a href=""><img src="assets/Static/YoutubeIcon.png"/></a>
-            <a href=""><img src="assets/Static/TumblrIcon.png"/></a>
-            <a href=""><img src="assets/Static//GPlusIcon.png"/></a>
+                <a href=""><img src="assets/Static/FacebookIcon.png" alt=""/></a>
+                <a href=""><img src="assets/Static/TwitterIcon.png" alt=""/></a>
+                <a href=""><img src="assets/Static/InstagramIcon.png" alt=""/></a>
+                <a href=""><img src="assets/Static/YoutubeIcon.png" alt=""/></a>
+                <a href=""><img src="assets/Static/TumblrIcon.png" alt=""/></a>
+                <a href=""><img src="assets/Static//GPlusIcon.png" alt=""/></a>
          </div>
       </div>
    </body>
