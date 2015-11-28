@@ -8,24 +8,37 @@
             hr.bot { margin-top: 2em; margin-bottom: 2em; width: 98%; float: left;}
             /*****1000px*****/
             @media screen and (max-width: 1000px) {
-                p, label, legend { font-size: 1.0rem; }
+                
                 .contact1 {
                     width: 100%;
                     clear: both;
                     display: block;
                 }
-                .contact2 {
-                    width: 100%;
-                    clear: both;
-                    display: block;
+                .field {
+                    margin-left: 0;
                 }
-                .field { margin-left: 0; }
-                input: { width: 100%; height: auto; overflow: hidden;}
-                .input100 { width: 100%; }
-                .input50 { width: 100%; margin-bottom: 5px;}
-                select { width: 100%; margin-bottom: 5px;}
-                textarea { width: 97%; }
-                #submit_reset { float: none; }
+                input: {
+                    width: 100%; 
+                    eight: auto;
+                    overflow: hidden;
+                }
+                .input100 {
+                    width: 100%;
+                }
+                .input50 {
+                    width: 100%;
+                    margin-bottom: 5px;
+                }
+                select {
+                    width: 100%;
+                    margin-bottom: 5px;
+                }
+                textarea {
+                    width: 97%;
+                }
+                #submit_reset {
+                    float: none;
+                }
                 input[type=reset] {
                     width: 100%;
                 }
@@ -57,7 +70,7 @@
             <div class="cclearcontent"></div>
             <div class="cupcontent">
                 <div class="headline"><h1>[ BOOK NOW ]</h1><hr class="fade"></div>
-                <div id="book">
+                <div class="book">
                     <p class="page">Thank you for your interest in booking our services! If you have any questions while filling out this form, please give us a call at 1(800) 323-6845 or email us at beanatb@gmail.com</p>
                 <form method="post" id="thankyou" action="./booking.html" onSubmit="alert('Thank you! We will get your order ready!');" >
                     <h3>Contact Details</h3>
@@ -72,7 +85,7 @@
                             <input type="tel" class="input100" name="usrtel" placeholder="Phone Number" required/>
                         </fieldset><br>
                     </div>
-                    <div class="contact2">
+                    <div class="contact1">
                         <fieldset>
                             <label>Company:</label><br>
                             <input type="text" class="input100" name="company" placeholder="Company" pattern="[A-Za-z]{2,30}"/>
@@ -167,22 +180,22 @@
                         <fieldset>
                             <label>Menu Selection: *</label>
                             <div>
-                                <p><input type="checkbox" name="menu" checked="checked"/>Coffee</p><br/>
-                                <p><input type="checkbox" name="menu"/>Tea</p><br/>
-                                <p><input type="checkbox" name="menu"/>Pastries</p><br/>
+                                <p class="booktext"><input type="checkbox" name="menu" checked="checked"/>Coffee</p><br/>
+                                <p class="booktext"><input type="checkbox" name="menu"/>Tea</p><br/>
+                                <p class="booktext"><input type="checkbox" name="menu"/>Pastries</p><br/>
                             </div>
                         </fieldset><br>
                     </div>
                     <div>
                         <fieldset>
                             <legend>How will the event be funded? *</legend>
-                            <p><input type="radio" name="payment" value="Individual Payment" checked="checked"/>Individual Payment</p><br/>
-                            <p><input type="radio" name="payment" value="Event Organizer Payment"/>Event Organizer Payment</p><br/>
+                            <p class="booktext"><input type="radio" name="payment" value="Individual Payment" checked="checked"/>Individual Payment</p><br/>
+                            <p class="booktext"><input type="radio" name="payment" value="Event Organizer Payment"/>Event Organizer Payment</p><br/>
                         </fieldset><br>
                         <fieldset>
                             <legend>Is there vehicle access at the event? *</legend>
-                            <p><input type="radio" name="vehicle" value="Yes" checked="checked"/>Yes</p><br/>
-                            <p><input type="radio" name="vehicle" value="No" />No</p><br/>
+                            <p class="booktext"><input type="radio" name="vehicle" value="Yes" checked="checked"/>Yes</p><br/>
+                            <p class="booktext"><input type="radio" name="vehicle" value="No" />No</p><br/>
                         </fieldset><br>
 
                         <fieldset>
