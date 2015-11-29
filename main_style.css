@@ -666,8 +666,12 @@ input[type=reset]:active {
 
 #socialmedia    {
     float: right;
-    width: 18%;
+    width: 20%;
     margin-right: 10%;
+}
+
+#socialmedia img    {
+    height: 3vw;
 }
 
 
@@ -740,11 +744,11 @@ input[type=reset]:active {
         width: auto;
     }
     #socialmedia img    {
-        height: 4vh;
+        height: 3vh;
     }
 
     #footercontent  {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
     
     .framecontent   {
@@ -798,14 +802,18 @@ input[type=reset]:active {
         width: auto;
     }
     #socialmedia img    {
-        height: 4vh;
+        height: 3vh;
     }
 
     #footercontent  {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     
     .framecontent   {
         font-size: 3vw;
+    }
+    
+    p.page   {
+        font-size: 2vw;
     }
 }
