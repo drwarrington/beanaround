@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <meta charset="utf-8">
-      <title>About Us | Bean Around the Block</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About Us | Bean Around the Block</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
       <link rel="stylesheet" href="main_style.css">
       <style>
+         .navbar {
+                    margin-bottom: 0;
+                    display:none;
+                }
+          .nav a {
+                    font-size: 10pt;
+          }
           /*****1000px*****/
             @media screen and (max-width: 1000px) {
                 #para {
@@ -26,14 +36,79 @@
                 }
                 #roasting, #coffeebag { display: none; }
             }
+          @media screen and (max-width: 1000px) and (min-width: 542px) {
+                #para {
+                    text-align: left;
+                }
+                .greentext {
+                    font-size: 15pt;
+                    margin-top: 0;
+                    text-align: center;
+                }
+                .contact2 {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    clear: both;
+                    display: block;
+                }
+                #truck { 
+                    margin-left: 19%;
+                    margin-top: 5em;
+                    width: 60%;
+                }
+          }
+          @media screen and (max-width: 542px) and (min-width: 320px) {
+              .menu {display:none;}
+              #para {
+                    text-align: left;
+                }
+                .greentext {
+                    font-size: 15pt;
+                    margin-top: 0;
+                    text-align: center;
+                }
+                .contact2 {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    clear: both;
+                    display: block;
+                }
+                #truck { 
+                    margin-left: 19%;
+                    margin-top: 5em;
+                    width: 60%;
+                }
+              .navbar {
+                    display:block;
+                }
+          }
       </style>
-      <script language="javascript" type="text/javascript">
-         function resizeIframe(obj) {
-           obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-         }
-      </script>
    </head>
    <body>
+    <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Beanaround</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Menu</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
       <div id="wrap" class="aboutg">
          <div id="pagewrap">
              <br>
@@ -41,7 +116,7 @@
             <div class="menuside"></div>
             <div class="menu"><a href="products.html">MENU</a></div>
             <div class="menu"><a href="booking.html">BOOKING</a></div>
-            <div id="logo"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png" alt="" onmouseover="this.src='./assets/Static/Logo2.png';" onmouseout="this.src='./assets/Static/Logo.png';"/></a></div>
+            <div id="logo"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png"/></a></div>
             <div class="menu currentpage"><a href="aboutus.html">ABOUT US</a></div>
             <div class="menu"><a href="contact.html">CONTACT</a></div>
             <div class="menuside"></div>
@@ -122,5 +197,11 @@
           <p class="page">&nbsp;</p>
           <p class="page">&nbsp;</p>
       </div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+         function resizeIframe(obj) {
+           obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+         }
+      </script>
    </body>
 </html>
