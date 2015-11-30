@@ -361,6 +361,36 @@ position: absolute;
 
 }
 
+/*****************************************INDEX*******************************************/
+
+#roaster {
+    width: 60%;
+    margin-top: 15%;
+    margin-left: 20%;
+    position: absolute;
+}
+.team {
+    float: left;
+    margin-left: 3%;
+    width: 30%;
+    -moz-box-shadow: 0px 0px 30px black;
+    -webkit-box-shadow: 0px 0px 30px black;
+    box-shadow: 0px 0px 30px black;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 1000px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.team:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+img#third {
+    width: 100%;
+    margin-top: -1%;
+}
+
 /**************************************BOOKING*******************************************/
 
 h3 {
@@ -597,11 +627,11 @@ input[type=reset]:active {
 }
 .smedia {
     float: left;
-    margin: 10px 10px 10px 5px;
+    margin: 2% 2% 2% 1%;
 }
 #fsmedia {
     float: left;
-    margin: 10px 10px 10px 0px;
+    margin: 2% 2% 2% 0;
 }
 .csubmit {
     margin-top: 10px;

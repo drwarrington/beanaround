@@ -6,15 +6,12 @@
         <title>Products | Bean Around the Block</title>
         <link rel="stylesheet" href="main_style.css">
         <style>
-        @import url(https://fonts.googleapis.com/css?family=Roboto);
-        @import url(https://fonts.googleapis.com/css?family=Squada+One|Averia+Sans+Libre|Metamorphous|Happy+Monkey);
         </style>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script language="javascript" type="text/javascript">
             function resizeIframe(obj) {
                 obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
             }
-            
             $(function(){
                 $('.fadein img:gt(0)').hide();
                 setInterval(function(){
@@ -33,7 +30,7 @@
             <div class="menuside"></div>
             <div class="menu currentpage"><a href="products.html">MENU</a></div>
             <div class="menu"><a href="booking.html">BOOKING</a></div>
-            <div id="logo"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png"/></a></div>
+            <div id="logo"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png" alt="" onmouseover="this.src='./assets/Static/Logo2.png';" onmouseout="this.src='./assets/Static/Logo.png';"/></a></div>
             <div class="menu"><a href="aboutus.html">ABOUT US</a></div>
             <div class="menu"><a href="contact.html">CONTACT</a></div>
             <div class="menuside"></div>
