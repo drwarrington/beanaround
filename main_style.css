@@ -407,6 +407,7 @@ h3 {
 p, label, placeholder, legend {
     font-family: 'Roboto';
     font-size: 10pt;
+    width: 100%;
 }
 .contact1 {
     width: 50%;
@@ -458,6 +459,10 @@ select {
 }
 input[type=checkbox] {
     display: inline-block;
+    margin-right: 2%;
+}
+input[type=radio] {
+    margin-right: 2%;
 }
 input[type=submit] {
     margin-bottom: 5px;
