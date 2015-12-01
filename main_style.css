@@ -134,7 +134,7 @@ a:visited
     
 a:hover
 {
-    color: #7ab181;
+    color: #7ab181 !important;
     text-decoration: none;
     text-shadow: 1px 1px 4px #393735;
 }
