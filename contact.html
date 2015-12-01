@@ -3,8 +3,16 @@
     <head>
         <meta charset="utf-8">
         <title>Contact Us | Bean Around the Block</title>
-        <link rel="stylesheet" href="main_style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <link rel="stylesheet" href="main_style.css">
         <style>
+            .nav a {
+                    font-size: 10pt;
+          }
+            .navbar {
+                    margin-bottom: 0;
+                    display:none;
+                }
             /*****1000px*****/
             @media screen and (max-width: 1024px) {
                 .cutext, h3 { text-align: center; }
@@ -35,6 +43,11 @@
                     font-size: 4vw;
                 }
             }
+             @media screen and (max-width: 780px) and (min-width: 320px) {
+                .navbar {
+                    display:block;
+                }
+            }
         </style>
         <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script>
@@ -57,6 +70,30 @@
     </script>
     </head>
     <body>
+         <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Beanaround</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Menu</a></li>
+                    <li><a href="booking.html">about us</a></li>
+                    <li><a href="contact.html">booking</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
         <div id="wrap" class="contactg">
         <div id="pagewrap">
             <br>
@@ -136,5 +173,7 @@
                 <a href=""><img src="assets/Static//GPlusIcon.png" alt=""/></a>
             </div>
         </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     </body>
 </html>
