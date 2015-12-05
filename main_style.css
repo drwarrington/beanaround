@@ -122,21 +122,18 @@ a:link
 {
     color: #e3e2e1;
     text-decoration: none;
-    text-shadow: 1px 1px 4px #666666;
 }
         
 a:visited
 {
     color: #e3e2e1;
     text-decoration: none;
-    text-shadow: 1px 1px 4px #666666;
 }
     
 a:hover
 {
     color: #7ab181 !important;
-    text-decoration: none;
-    text-shadow: 1px 1px 4px #393735;
+    text-decoration: none !important;
 }
         
 .brownhover:hover
@@ -560,7 +557,6 @@ input[type=reset]:active {
     font-family: 'White Elephant';
     margin-bottom: 5px;
     color: #333333;
-    text-shadow: 1px 1px 4px #666666;
 }
 
 .framecontent a {
@@ -699,7 +695,6 @@ input[type=reset]:active {
     font-size: 2vw;
     font-family: 'White Elephant';
     color: #333333;
-    text-shadow: 1px 1px 4px #999999;
 }
 
 #socialmedia    {
@@ -714,6 +709,19 @@ input[type=reset]:active {
 
 
 /*************************/
+/******** NAV BAR ********/
+/*************************/
+
+.navbar {
+    margin-bottom: 0 !important;
+    display:none;
+}
+
+.nav a {
+    font-size: 4vw;
+}
+
+/*************************/
 /***** MEDIA QUERIES *****/
 /*************************/
 
@@ -725,6 +733,7 @@ input[type=reset]:active {
         width: 100%;
         font-size: 15vw;
         height: 100px;
+        display: none;
     }
     
     .menuside   {
@@ -740,6 +749,14 @@ input[type=reset]:active {
         margin: 0px auto;
         margin-left: 35%;
     }
+    
+    #productframe   {
+        scrolling: yes;
+    }
+    
+    .navbar {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 320px)   {
@@ -747,6 +764,11 @@ input[type=reset]:active {
         width: 50%;
         font-size: 10vw;
         height: 10vw;
+        display: none;
+    }
+    
+    .navbar {
+        display: block;
     }
     
     .menuside   {
@@ -796,6 +818,32 @@ input[type=reset]:active {
     #productframe   {
         height: 50vh;
         width: 100%;
+    }
+    
+    #para {
+        text-align: left;
+    }
+    
+    .greentext {
+        font-size: 15pt;
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    .contact2 {
+        width: 100%;
+        margin-bottom: 20px;
+        clear: both;
+        display: block;
+    }
+    
+    #truck { 
+        margin-top: 5em;
+        width: 100%;
+    }
+    
+    .backg  {
+        
     }
 }
 
