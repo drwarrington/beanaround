@@ -105,7 +105,7 @@ img.mid {
     position: relative;
 }
         
-#fimage
+.fimage
 {
     float: left;
     align-content: center;
@@ -536,6 +536,8 @@ input[type=reset]:active {
     height: auto;
     display: block;
     height: 35vw;
+    border: 0;
+    overflow: visible;
 }
 
 .productImages  {
@@ -579,7 +581,7 @@ input[type=reset]:active {
 .contact3 {
   clear: both;
 }
-#para {
+.para {
   width: 100%;
   float: left;
   margin: 0 auto;
@@ -625,9 +627,6 @@ input[type=reset]:active {
     width: 50%;
     height: auto;
     float: left;
-}
-#smcont {
-    display: left;
 }
 .smedia {
     float: left;
@@ -750,10 +749,6 @@ input[type=reset]:active {
         margin-left: 35%;
     }
     
-    #productframe   {
-        scrolling: yes;
-    }
-    
     .navbar {
         display: block;
     }
@@ -820,7 +815,7 @@ input[type=reset]:active {
         width: 100%;
     }
     
-    #para {
+    .para {
         text-align: left;
     }
     

@@ -5,10 +5,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Products | Bean Around the Block</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
       <link rel="stylesheet" href="main_style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script language="javascript" type="text/javascript">
+        <script type="text/javascript">
             function resizeIframe(obj) {
                 obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
             }
@@ -47,11 +47,11 @@
         <div id="wrap" class="menug">
         <div id="pagewrap">
             <br>
-            <div id="logo2"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png"/></a></div>
+            <div id="logo2"><a href="index.html"><img class="fimage" src="./assets/Static/Logo.png" alt="" onmouseover="this.src='./assets/Static/Logo2.png';" onmouseout="this.src='./assets/Static/Logo.png';"/></a></div>
             <div class="menuside"></div>
             <div class="menu currentpage"><a href="products.html">MENU</a></div>
             <div class="menu"><a href="booking.html">BOOKING</a></div>
-            <div id="logo"><a href="index.html"><img id="fimage" src="./assets/Static/Logo.png" alt="" onmouseover="this.src='./assets/Static/Logo2.png';" onmouseout="this.src='./assets/Static/Logo.png';"/></a></div>
+            <div id="logo"><a href="index.html"><img class="fimage" src="./assets/Static/Logo.png" alt="" onmouseover="this.src='./assets/Static/Logo2.png';" onmouseout="this.src='./assets/Static/Logo.png';"/></a></div>
             <div class="menu"><a href="aboutus.html">ABOUT US</a></div>
             <div class="menu"><a href="contact.html">CONTACT</a></div>
             <div class="menuside"></div>
@@ -61,24 +61,23 @@
             </div>
             <div class="cupcontent">
                 <div class="fadein">
-                    <img src="assets/Menu/Gallery/GirlGallery.jpg">
-                    <img src="assets/Menu/Gallery/BeansGallery.jpg">
-                    <img src="assets/Menu/Gallery/DonutsGallery.jpg">
-                    <img src="assets/Menu/Gallery/FireGallery.jpg">
-                    <img src="assets/Menu/Gallery/MuffinsGallery.jpg">
-                    <img src="assets/Menu/Gallery/PastriesGallery.jpg">
-                    <img src="assets/Menu/Gallery/PourGallery.jpg">
-                    <img src="assets/Menu/Gallery/SackGallery.jpg">
+                    <img src="assets/Menu/Gallery/GirlGallery.jpg" alt="">
+                    <img src="assets/Menu/Gallery/BeansGallery.jpg" alt="">
+                    <img src="assets/Menu/Gallery/DonutsGallery.jpg" alt="">
+                    <img src="assets/Menu/Gallery/FireGallery.jpg" alt="">
+                    <img src="assets/Menu/Gallery/MuffinsGallery.jpg" alt="">
+                    <img src="assets/Menu/Gallery/PastriesGallery.jpg" alt="">
+                    <img src="assets/Menu/Gallery/PourGallery.jpg" alt="">
+                    <img src="assets/Menu/Gallery/SackGallery.jpg" alt="">
                 </div>
                 </div>
                 <div class="headline"><h1>[ Our Menu ]</h1><hr class="fade"></div>
                 <p class="page">&nbsp;</p>
                 <div class="framecontent"><a href="coffee.html" target="iframe_prod">COFFEE</a> | <a href="tea.html" target="iframe_prod">TEA</a> | <a href="pastries.html" target="iframe_prod">PASTRIES</a></div>
-                <iframe src="coffee.html" name="iframe_prod" id="productframe" frameborder="0" onload='javascript:resizeIframe(this);' scrolling="no"><p>Your browser does not support iframes.</p></iframe>
+                <iframe src="coffee.html" name="iframe_prod" id="productframe" onload='javascript:resizeIframe(this);'><p>Your browser does not support iframes.</p></iframe>
 
             </div>
             <span>&nbsp;</span>
-        </div>
             <div class="push"></div>
         </div>
         <div class="footer">
@@ -96,6 +95,6 @@
             </div>
         </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
     </body>
 </html>
